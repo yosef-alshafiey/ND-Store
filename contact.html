@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact </title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+    <style>
+         .banner-contact{
+            margin-top: 5px;
+            background-image: url(imgs/contact/c1.jpg );
+            background-size: cover;
+            background-position: left 90% top 75%;
+            height: 50vh;
+            width: 100%;
+            padding: 0 80px;
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           color: #fff;
+           text-align: end;
+         }   
+        .contact-section {
+           display: flex;
+           justify-content: space-between;
+           align-items: flex-start;
+           margin: 20px;
+}
+
+.contact-info, .map-container {
+    width: 48%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contact-info {
+    max-width: 48%;
+}
+
+.contact-info h3, .map-container h3 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info .follow {
+    margin-top: 20px;
+}
+
+.contact-info .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+        .contact-section .contact-info,
+        .contact-section .contact-form {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .contact-section .contact-info h3,
+        .contact-section .contact-form h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-section .contact-info p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .contact-section .contact-info .follow {
+            margin-top: 20px;
+        }
+        
+        .contact-section .contact-info .icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            cursor: pointer;
+            color: #333;
+        }
+        
+        .contact-section .contact-form form {
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-section .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .contact-section .contact-form .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        .contact-section .contact-form .form-group input,
+        .contact-section .contact-form .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        
+        .contact-section .contact-form .form-group textarea {
+            resize: none;
+        }
+        
+        .contact-section .contact-form button {
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+/* Media Queries */
+@media screen and (max-width: 481px) {
+        .banner-contact{
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+        }
+        .contact-section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 0px 0px 0px 0px;
+        }
+        .contact-section .contact-info,
+        .contact-section .contact-form {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        .map-container{
+            width: 100%;
+            height: 100%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .footer .col{
+            align-items: center;
+            padding: 0%;
+        }
+    }
+    </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="#logo"><img class="logo-nd" src="imgs/logo.png"> </a>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class='bx bx-cart'></i></a></li>
+                </ul>
+            </div>  
+            <ul class="menu-icon"><i class='bx bx-menu'></i></ul>
+        </div>
+
+        <div class="banner-contact">
+            <h1>#Contact Us</h1>
+            <h2>We'd Love to Hear From You</h2>
+            <p>Feel free to reach out for any inquiries or feedback</p>
+        </div>
+    <br>
+    <div class="contact-section">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong> Cairo</p>
+            <p><strong>Phone:</strong> 01210165788</p>
+            <p><strong>Email:</strong> youssefelshafiey37@gmail.com</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-youtube'></i>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d874941.4693490852!2d31.656744999999994!3d31.061333650000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1719697202150!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+      
+      
+    <div class="footer">
+          <div class="col">
+              <h4>contact</h4>
+              <p>
+                  <strong>Adress :</strong> Cairo
+              </p>
+              <p>
+                  <strong>phone :</strong> 01210165788
+              </p>
+              <div class="follow">
+                  <h4>Follow Us</h4>
+                  <div class="icons">
+                      <i class='bx bxl-facebook'></i>
+                      <i class='bx bxl-twitter' ></i>
+                      <i class='bx bxl-instagram' ></i>
+                      <i class='bx bxl-youtube' ></i>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <h4>About Us</h4>
+              <a href="#">About Us</a>
+              <a href="#">Delivery Info</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms $ Condions</a>
+              <a href="#">Contact Us</a>
+          </div>
+          <div class="col">
+              <h4>my account</h4>
+              <a href="#">sign in</a>
+              <a href="#">View Cart</a>
+              <a href="#">My Wishlist</a>
+              <a href="#">Track My Order</a>
+              <a href="#">Help</a>
+          </div>
+    </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

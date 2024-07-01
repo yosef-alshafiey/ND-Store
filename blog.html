@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Blog </title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+         .banner-blog{
+            margin-top: 5px;
+            background-image: url(imgs/banner/blog.jpg );
+            background-size: cover;
+            background-position: left 10% top 45%;
+            height: 50vh;
+            width: 100%;
+            padding: 0 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+           justify-content: center;
+        }
+         .blog-1{
+          width: 100%;
+          height: 60vh;
+          margin-top: 15px;
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+        }  
+        .blog-1 .des{
+          margin-left: 35px;
+          margin-top: 150px;
+        }
+        .blog-1 img{
+          height: 100%;
+          width: 500px;
+          justify-content: start;
+        }
+
+
+/* Media Queries */
+@media screen and (max-width: 481px) {
+    .banner-blog{
+        padding-left: 0px;
+        margin-bottom: 120px;
+    }    
+    .banner-blog H1{
+        padding-bottom: 150px;
+        padding-left: 0px;
+    }
+    .blog-1{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 130px;
+   margin-top: 0px;
+   text-align: center;
+        }
+    .blog-1 img {
+        width: 100%;
+        margin-bottom: 0px;
+    }   
+    .blog-1 .des{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: 100%;
+        padding: 10x 10px 10px 10px;
+    }   
+    }
+    </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="#logo"><img class="logo-nd" src="imgs/logo.png"> </a>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class='bx bx-cart'></i></a></li>
+                </ul>
+            </div>
+            <ul class="menu-icon"><i class='bx bx-menu'></i></ul>
+        </div>
+        <div class="banner-blog">
+            <h1>#Read More</h1>
+        </div>
+        
+        <div class="blog-1">
+          <img src="imgs/blog/b1.jpg">
+          <div class="des">
+             <h1>Unisex T-Shirt Buying Guid</h1>
+             <p>If you’re looking into purchasing your next garments through Clothing<br> Shop Online.</p>
+          </div>
+        </div>
+        <div class="blog-1">
+          <img src="imgs/blog/b2.png">
+          <div class="des">
+             <h1>T-Shirt Fit Guide</h1>
+             <p>‍
+              The t-shirt is a staple of every wardrobe, but t-shirts are by no means<br>
+               one-size-fits-all. Once relegated solely to wearing beneath a clothes .
+              </p>
+          </div>
+        </div>
+        <div class="blog-1">
+          <img src="imgs/blog/b3.jpg">
+          <div class="des">
+             <h1>What is a Raglan Shirt?</h1>
+             <p>‍
+              raglan shirt has distinctive sleeves that start at the shirt’s neckline<br>
+               (or collar) and are attached to the body of the shirt with diagonal seam.
+              </p>
+          </div>
+        </div>
+        <br>
+        <div class="footer">
+          <div class="col">
+              <h4>contact</h4>
+              <p>
+                  <strong>Adress :</strong> Cairo
+              </p>
+              <p>
+                  <strong>phone :</strong> 01210165788
+              </p>
+              <div class="follow">
+                  <h4>Follow Us</h4>
+                  <div class="icons">
+                      <i class='bx bxl-facebook'></i>
+                      <i class='bx bxl-twitter' ></i>
+                      <i class='bx bxl-instagram' ></i>
+                      <i class='bx bxl-youtube' ></i>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <h4>About Us</h4>
+              <a href="#">About Us</a>
+              <a href="#">Delivery Info</a>
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms $ Condions</a>
+              <a href="#">Contact Us</a>
+          </div>
+          <div class="col">
+              <h4>my account</h4>
+              <a href="#">sign in</a>
+              <a href="#">View Cart</a>
+              <a href="#">My Wishlist</a>
+              <a href="#">Track My Order</a>
+              <a href="#">Help</a>
+          </div>
+      </div>
+      
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
