@@ -322,7 +322,12 @@ body{
   .banner h1 {
     font-size: 36px;
   }
-
+ .banner H2{
+    color:rgb(248,58,58);
+ }
+ .banner a{
+    font-size:large;
+ }
   .features {
     flex-direction: column;
     align-items: center;
