@@ -316,7 +316,8 @@ body{
   .banner {
     padding: 0 20px;
     text-align: center;
-    
+    background-position-x: 60%;
+
   }
 
   .banner h1 {
